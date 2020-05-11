@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: #b83303;
+    margin: 0;
+}
+
+.iconofisioterapia {    
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.main_header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 33px;
+    height: 110px ;
+    margin-top: -8px;
+    text-align: center;
+    width: 100% ;
+    z-index: 101 ;
+}
+
+.main_menu ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu li {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.main_menu li a:hover {    
+    text-decoration: overline;
+}
+
+.main_menu li a {
+    color: white;
+    display: block;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main_bloquetitulo {
+    background-attachment: fixed;
+    background-image: url(../img/reumatologia.jpg);
+    background-size: 100% ;
+    color: white;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 0em;
+    padding-top: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.main_parrafotitulo {
+    color: #ffffff;
+    float: left;
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 85px;
+    margin-top: 45px;
+    text-align: center;
+    text-align: left;
+}    
